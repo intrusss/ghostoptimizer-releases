@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.4.0",
-  "download_url": "https://github.com/intrusss/ghostoptimizer-releases/releases/download/v1.4.0/GhostOptimizer.exe",
-  "sha256": "821e71cf9578d5f633dd63194f77ed5b6b76853fe33cb5ac2830d3341065653e",
+  "latest_version": "1.4.1",
+  "download_url": "https://github.com/intrusss/ghostoptimizer-releases/releases/download/v1.4.1/GhostOptimizer.exe",
+  "sha256": "92e74a9646efc0cc440563d5dbd7dcdaab3fafa4a70429c13a003c67e3ce1c59",
   "changelog": "Naprawiono baner aktualizacji i dashboard."
 }
