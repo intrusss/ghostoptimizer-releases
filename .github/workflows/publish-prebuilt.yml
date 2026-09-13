@@ -1,0 +1,23 @@
+name: Publish tested Windows installer
+on:
+  push:
+    branches: [main]
+    paths: [release-request.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Fetch and verify the tested installer
+        run: python3 tools/prepare-release.py
+      - name: Publish Windows installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v1.6.1 release/GhostOptimizer-1.6.1-Setup.exe release/version.json --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "GhostOptimizer 1.6.1 — Free + Pro" --notes-file release-notes.md

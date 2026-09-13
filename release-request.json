@@ -1,0 +1,11 @@
+{
+  "artifact_url": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-fb34-820a-9b36-d29171913149/raw?se=2026-09-13T23%3A28%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=01a09d14-175f-703d-9ed5-0bd7ac0e3683&skoid=56822d8b-6cfd-42ed-a00d-1452dca42036&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-13T07%3A06%3A40Z&ske=2026-09-14T07%3A06%3A40Z&sks=b&skv=2026-02-06&sig=QK9LVnxlm22OFnSZPkQhkp9sLD7urQQ8iFdFlSUaGXQ%3D",
+  "archive_sha256": "6a44b99c023ba7630a53aefc1a3897a4b410f56e5d37f248b30d1c021f687e2c",
+  "manifest": {
+    "latest_version": "1.6.1",
+    "download_url": "https://github.com/intrusss/ghostoptimizer-releases/releases/download/v1.6.1/GhostOptimizer-1.6.1-Setup.exe",
+    "sha256": "e959f1b05a94a6d78e084047082352c5009fe31e7614362c13cffa0ba870cce0",
+    "package_type": "installer",
+    "changelog": "Darmowa wersja programu, aktywacja Pro kluczem i aktualizacja z poziomu aplikacji."
+  }
+}
