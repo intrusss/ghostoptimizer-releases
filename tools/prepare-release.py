@@ -8,7 +8,7 @@ import zipfile
 
 request = json.loads(Path("release-request.json").read_text(encoding="utf-8"))
 url = request["artifact_url"]
-assert url.startswith("https://sdmntprwestus3.oaiusercontent.com/"), "Unexpected artifact origin"
+assert url.startswith("https://sdmntprpolandcentral.oaiusercontent.com/"), "Unexpected artifact origin"
 with urllib.request.urlopen(url, timeout=60) as response:
     archive = response.read(100 * 1024 * 1024 + 1)
 assert len(archive) <= 100 * 1024 * 1024

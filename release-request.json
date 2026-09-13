@@ -7,5 +7,6 @@
     "sha256": "e959f1b05a94a6d78e084047082352c5009fe31e7614362c13cffa0ba870cce0",
     "package_type": "installer",
     "changelog": "Darmowa wersja programu, aktywacja Pro kluczem i aktualizacja z poziomu aplikacji."
-  }
+  },
+  "attempt": 2
 }
