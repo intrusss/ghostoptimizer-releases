@@ -1,6 +1,7 @@
 {
-  "latest_version": "1.4.1",
-  "download_url": "https://github.com/intrusss/ghostoptimizer-releases/releases/download/v1.4.1/GhostOptimizer.exe",
-  "sha256": "92e74a9646efc0cc440563d5dbd7dcdaab3fafa4a70429c13a003c67e3ce1c59",
-  "changelog": "Naprawiono baner aktualizacji i dashboard."
+  "latest_version": "1.6.1",
+  "download_url": "https://ghostoptimizer.pl/downloads/GhostOptimizer-1.6.1-Setup.exe",
+  "sha256": "e959f1b05a94a6d78e084047082352c5009fe31e7614362c13cffa0ba870cce0",
+  "package_type": "installer",
+  "changelog": "Darmowe funkcje bez klucza, aktywacja Pro i aktualizacje z poziomu programu."
 }
